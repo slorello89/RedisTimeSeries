@@ -178,6 +178,7 @@ _SOURCES=\
 	resultset.c \
 	tsdb.c \
 	series_iterator.c
+	utils/blocked_client.c
 
 SOURCES=$(addprefix $(SRCDIR)/,$(_SOURCES))
 HEADERS=$(patsubst $(SRCDIR)/%.c,$(SRCDIR)/%.h,$(SOURCES))
